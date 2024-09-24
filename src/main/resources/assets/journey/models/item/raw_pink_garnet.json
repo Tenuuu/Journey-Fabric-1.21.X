@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "journey:item/test"
+    "layer0": "journey:item/raw_pink_garnet"
   }
 }

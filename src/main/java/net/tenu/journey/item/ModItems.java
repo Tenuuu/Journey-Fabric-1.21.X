@@ -9,7 +9,8 @@ import net.minecraft.util.Identifier;
 import net.tenu.journey.Journey;
 
 public class ModItems {
-    public static final Item TEST = registerItem("test", new Item(new Item.Settings()));
+    public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
+    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -20,7 +21,8 @@ public class ModItems {
         Journey.LOGGER.info("Registering mod items for " + Journey.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(TEST);
+            entries.add(PINK_GARNET);
+            entries.add(RAW_PINK_GARNET);
         });
     }
 }
