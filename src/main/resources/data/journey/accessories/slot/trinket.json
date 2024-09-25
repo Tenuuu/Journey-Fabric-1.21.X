@@ -1,0 +1,6 @@
+{
+  "order": 0,
+  "icon": "accessories:gui/slot/ring",
+  "amount": 3,
+  "operation": "SET"
+}
