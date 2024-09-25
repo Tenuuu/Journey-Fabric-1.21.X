@@ -1,6 +1,9 @@
 {
   "item.journey.pink_garnet": "Pink Garnet",
   "item.journey.raw_pink_garnet": "Raw Pink Garnet",
+  "item.journey.ring_of_fortitude": "Ring of Fortitude",
+
+  "tooltip.journey.ring_of_fortitude.tooltip": "§7§oTrinket",
 
   "block.journey.pink_garnet_block": "Block of Pink Garnet",
   "block.journey.raw_pink_garnet_block": "Block of Raw Pink Garnet"
