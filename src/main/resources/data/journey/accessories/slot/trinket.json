@@ -1,5 +1,5 @@
 {
-  "order": 0,
+  "order": 1000,
   "icon": "accessories:gui/slot/ring",
   "amount": 3,
   "operation": "SET"
