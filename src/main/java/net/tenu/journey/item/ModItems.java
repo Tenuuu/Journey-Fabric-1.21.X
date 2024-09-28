@@ -16,7 +16,8 @@ import java.util.List;
 public class ModItems {
 //    public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
 //    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
-    public static final Item RING_OF_FORTITUDE = registerItem("ring_of_fortitude", new Item(new Item.Settings().maxCount(1))
+    public static final Item RING_OF_FORTITUDE = registerItem("ring_of_fortitude", new Item(new Item.Settings().maxCount(1)));
+    public static final Item GOLDEN_BRACER = registerItem("golden_bracer", new Item(new Item.Settings().maxCount(1)));
 //    {
 //        @Override
 //        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type)
@@ -25,7 +26,6 @@ public class ModItems {
 //            super.appendTooltip(stack, context, tooltip, type);
 //        }
 //    }
-    );
 
 
     private static Item registerItem(String name, Item item) {
@@ -42,6 +42,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(RING_OF_FORTITUDE);
+            entries.add(GOLDEN_BRACER);
         });
     }
 }

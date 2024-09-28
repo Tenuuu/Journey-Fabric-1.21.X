@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "journey:ring_of_fortitude"
+    "journey:ring_of_fortitude",
+    "journey:golden_bracer"
   ]
 }
