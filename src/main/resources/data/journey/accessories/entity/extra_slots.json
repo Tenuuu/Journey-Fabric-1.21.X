@@ -1,9 +1,10 @@
 {
-  "replace": false,
+  "replace": true,
   "entities": [
     "#accessories:defaulted_targets"
   ],
   "slots": [
-    "trinket"
+    "trinket",
+    "gadget"
   ]
 }
