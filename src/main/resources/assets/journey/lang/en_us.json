@@ -1,12 +1,17 @@
 {
   "item.journey.pink_garnet": "Pink Garnet",
   "item.journey.raw_pink_garnet": "Raw Pink Garnet",
+
   "item.journey.ring_of_fortitude": "Ring of Fortitude",
+  "item.journey.ring_of_fortitude_1": "Ring of Fortitude +1",
+  "item.journey.ring_of_fortitude_2": "Ring of Fortitude +2",
+  "item.journey.ring_of_fortitude_3": "Ring of Fortitude +3",
   "item.journey.golden_bracer": "Golden Bracer",
+  "item.journey.four_leaf_clover": "Four-Leaf Clover",
 
   "block.journey.pink_garnet_block": "Block of Pink Garnet",
   "block.journey.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 
   "accessories.slot.trinket": "Trinket",
-  "accessories.slot.gadget": "Gadget"
+  "accessories.slot.charm": "Gadget"
 }

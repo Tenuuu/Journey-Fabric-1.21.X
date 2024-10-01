@@ -4,7 +4,6 @@
     "#accessories:defaulted_targets"
   ],
   "slots": [
-    "trinket",
-    "gadget"
+    "trinket"
   ]
 }
