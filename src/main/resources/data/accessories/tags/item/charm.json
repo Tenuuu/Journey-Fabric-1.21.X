@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "journey:light_feather",
+    "journey:wind_jump",
+    "journey:totem_of_regeneration",
+    "journey:totem_of_shielding",
+    "journey:grappling_hook",
+    "journey:gong_of_weakening",
+    "journey:boots_of_swiftness",
+    "journey:wind_horn",
+    "journey:death_cap_mushroom",
+    "journey:ghost_cloak"
+  ]
+}
