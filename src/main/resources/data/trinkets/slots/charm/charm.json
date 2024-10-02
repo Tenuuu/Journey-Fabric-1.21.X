@@ -1,0 +1,6 @@
+{
+  "icon": "trinkets:gui/slots/charm",
+  "tooltip_predicates": [
+    "none"
+  ]
+}
