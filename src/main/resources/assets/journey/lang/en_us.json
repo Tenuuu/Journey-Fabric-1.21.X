@@ -30,6 +30,9 @@
   "block.journey.pink_garnet_block": "Block of Pink Garnet",
   "block.journey.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 
+  "effect.journey.totem_regen": "Totem of Regeneration",
+  "effect.journey.damage_aura": "Damage Aura",
+
   "accessories.slot.trinket": "Trinket",
   "accessories.slot.charm": "Gadget"
 }

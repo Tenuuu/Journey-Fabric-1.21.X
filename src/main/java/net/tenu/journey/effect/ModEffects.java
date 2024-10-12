@@ -7,8 +7,10 @@ import net.minecraft.util.Identifier;
 
 public class ModEffects {
     public static final StatusEffect TOTEM_REGEN = new TotemRegenEffect();
+    public static final StatusEffect DAMAGE_AURA = new DamageAuraEffect();
 
     public static void registerModEffects() {
         Registry.register(Registries.STATUS_EFFECT, Identifier.of("journey", "totem_regen"), TOTEM_REGEN);
+        Registry.register(Registries.STATUS_EFFECT, Identifier.of("journey", "damage_aura"), DAMAGE_AURA);
     }
 }
