@@ -32,6 +32,8 @@
 
   "effect.journey.totem_regen": "Totem of Regeneration",
   "effect.journey.damage_aura": "Damage Aura",
+  "effect.journey.melee_speed_aura": "Melee Speed Aura",
+  "effect.journey.damage_resist_aura": "Damage Resist Aura",
 
   "accessories.slot.trinket": "Trinket",
   "accessories.slot.charm": "Gadget"

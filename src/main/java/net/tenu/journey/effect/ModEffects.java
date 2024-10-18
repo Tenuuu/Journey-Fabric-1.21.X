@@ -9,10 +9,12 @@ public class ModEffects {
     public static final StatusEffect TOTEM_REGEN = new TotemRegenEffect();
     public static final StatusEffect DAMAGE_AURA = new DamageAuraEffect();
     public static final StatusEffect MELEE_SPEED_AURA = new MeleeSpeedAuraEffect();
+    public static final StatusEffect DAMAGE_RESIST_AURA = new DamageResistAuraEffect();
 
     public static void registerModEffects() {
         Registry.register(Registries.STATUS_EFFECT, Identifier.of("journey", "totem_regen"), TOTEM_REGEN);
         Registry.register(Registries.STATUS_EFFECT, Identifier.of("journey", "damage_aura"), DAMAGE_AURA);
         Registry.register(Registries.STATUS_EFFECT, Identifier.of("journey", "melee_speed_aura"), MELEE_SPEED_AURA);
+        Registry.register(Registries.STATUS_EFFECT, Identifier.of("journey", "damage_resist_aura"), DAMAGE_RESIST_AURA);
     }
 }
