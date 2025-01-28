@@ -1,22 +1,13 @@
 {
   "item.journey.pink_garnet": "Pink Garnet",
   "item.journey.raw_pink_garnet": "Raw Pink Garnet",
-
-  "item.journey.light_feather": "Light Feather",
-  "item.journey.wind_jump":  "Wind Jump",
-  "item.journey.totem_of_regeneration": "Totem of Regeneration",
-  "item.journey.totem_of_shielding": "Totem of Shielding",
-  "item.journey.grappling_hook": "Grappling Hook",
-  "item.journey.gong_of_weakening": "Gong of Weakening",
-  "item.journey.boots_of_swiftness": "Boots of Swiftness",
-  "item.journey.wind_horn": "Wind Horn",
-  "item.journey.death_cap_mushroom": "Death Cap Mushroom",
-  "item.journey.ghost_cloak": "Ghost Cloak",
-
   "item.journey.four_leaf_clover": "Four-Leaf Clover",
 
   "block.journey.pink_garnet_block": "Block of Pink Garnet",
   "block.journey.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+
+  "itemgroup.journey.journey_items": "Journey Items",
+  "itemgroup.journey.journey_blocks": "Journey Blocks",
 
   "effect.journey.totem_regen": "Totem of Regeneration",
   "effect.journey.damage_aura": "Damage Aura",

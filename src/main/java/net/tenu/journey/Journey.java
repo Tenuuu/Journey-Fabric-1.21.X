@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.tenu.journey.block.ModBlocks;
 import net.tenu.journey.effect.ModEffects;
+import net.tenu.journey.item.ModItemGroups;
 import net.tenu.journey.item.ModItems;
 import net.tenu.journey.item.ModPotions;
 import org.slf4j.Logger;
@@ -15,6 +16,8 @@ public class Journey implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModPotions.registerModPotions();
 		ModBlocks.registerModBlocks();
