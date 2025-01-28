@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.FOUR_LEAF_CLOVER);
+                        entries.add(ModItems.CHISEL);
                     }).build());
 
     public static final ItemGroup JOURNEY_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
