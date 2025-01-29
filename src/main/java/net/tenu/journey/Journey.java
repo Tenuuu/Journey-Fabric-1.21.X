@@ -2,8 +2,10 @@ package net.tenu.journey;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.tenu.journey.block.ModBlocks;
 import net.tenu.journey.effect.ModEffects;
+import net.tenu.journey.item.ModFuels;
 import net.tenu.journey.item.ModItemGroups;
 import net.tenu.journey.item.ModItems;
 import net.tenu.journey.item.ModPotions;
@@ -22,5 +24,6 @@ public class Journey implements ModInitializer {
 		ModPotions.registerModPotions();
 		ModBlocks.registerModBlocks();
 		ModEffects.registerModEffects();
+		ModFuels.registerFuelItems();
 	}
 }
