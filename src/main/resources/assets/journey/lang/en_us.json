@@ -21,5 +21,10 @@
   "effect.journey.damage_resist_aura": "Damage Resist Aura",
 
   "accessories.slot.trinket": "Trinket",
-  "accessories.slot.charm": "Gadget"
+  "accessories.slot.charm": "Gadget",
+
+  "tooltip.journey.magic_block.tooltip": "This block is very, very §9magical§r",
+  "tooltip.journey.chisel.shift_down": "This item chisels blocks into Bricks!",
+  "tooltip.journey.chisel": "Press §eShift§r for more Information!",
+  "tooltip.journey.cauliflower.tooltip": "Yum yummy!!!!!!!!"
 }
