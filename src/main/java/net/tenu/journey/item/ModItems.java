@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.tenu.journey.Journey;
+import net.tenu.journey.item.armor.CityDefenderItem;
 import net.tenu.journey.item.armor.SplendidRobeItem;
 import net.tenu.journey.item.custom.ChiselItem;
 
@@ -40,8 +41,15 @@ public class ModItems {
         }
     });
 
-    public static final Item SPLENDID_ROBE = registerItem("splendid_robe",
+    public static final Item SPLENDID_ROBE_CHESTPLATE = registerItem("splendid_robe_chestplate",
             new SplendidRobeItem(ArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
+
+    public static final Item CITY_DEFENDER_HELMET = registerItem("city_defender_helmet",
+            new CityDefenderItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET, new Item.Settings()));
+    public static final Item CITY_DEFENDER_CHESTPLATE = registerItem("city_defender_chestplate",
+            new CityDefenderItem(ArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
+    public static final Item CITY_DEFENDER_LEGGINGS = registerItem("city_defender_leggings",
+            new CityDefenderItem(ArmorMaterials.IRON, ArmorItem.Type.LEGGINGS, new Item.Settings()));
 
     public static final Item STARLIGHT_ASHES = registerItem("starlight_ashes", new Item(new Item.Settings()));
 
