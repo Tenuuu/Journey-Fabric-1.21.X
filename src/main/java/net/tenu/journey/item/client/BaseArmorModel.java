@@ -24,6 +24,6 @@ public class BaseArmorModel extends GeoModel<BaseArmorItem> {
 
     @Override
     public Identifier getAnimationResource(BaseArmorItem animatable) {
-        return Identifier.of(Journey.MOD_ID, "animations/" + armorSet + ".animation.json");
+        return Identifier.of(Journey.MOD_ID, "animations/idle.animation.json");
     }
 }
