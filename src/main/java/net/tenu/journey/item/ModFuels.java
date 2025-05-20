@@ -9,6 +9,6 @@ public class ModFuels {
     public static void registerFuelItems() {
         Journey.LOGGER.info("Registering fuel items for " + Journey.MOD_ID);
 
-        FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
+        // FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
     }
 }

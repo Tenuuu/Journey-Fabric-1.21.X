@@ -9,12 +9,14 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.entry.RegistryEntry;
-import net.tenu.journey.item.client.SplendidRobeRenderer;
+import net.tenu.journey.item.client.BaseArmorRenderer;
 import org.jetbrains.annotations.Nullable;
 import software.bernie.geckolib.animatable.GeoItem;
 import software.bernie.geckolib.animatable.client.GeoRenderProvider;
 import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
-import software.bernie.geckolib.animation.*;
+import software.bernie.geckolib.animation.AnimatableManager;
+import software.bernie.geckolib.animation.AnimationController;
+import software.bernie.geckolib.animation.PlayState;
 import software.bernie.geckolib.constant.DataTickets;
 import software.bernie.geckolib.constant.DefaultAnimations;
 import software.bernie.geckolib.renderer.GeoArmorRenderer;
@@ -22,11 +24,13 @@ import software.bernie.geckolib.util.GeckoLibUtil;
 
 import java.util.function.Consumer;
 
-public class SplendidRobeItem extends ArmorItem implements GeoItem {
+public class BaseArmorItem extends ArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
+    private final String armorSet;
 
-    public SplendidRobeItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings) {
+    public BaseArmorItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings, String armorSet) {
         super(material, type, settings);
+        this.armorSet = armorSet;
     }
 
     @Override
@@ -37,7 +41,7 @@ public class SplendidRobeItem extends ArmorItem implements GeoItem {
             @Override
             public <T extends LivingEntity> BipedEntityModel<?> getGeoArmorRenderer(@Nullable T livingEntity, ItemStack itemStack, @Nullable EquipmentSlot equipmentSlot, @Nullable BipedEntityModel<T> original) {
                 if(this.renderer == null)
-                    this.renderer = new SplendidRobeRenderer();
+                    this.renderer = new BaseArmorRenderer(armorSet);
 
                 return this.renderer;
             }

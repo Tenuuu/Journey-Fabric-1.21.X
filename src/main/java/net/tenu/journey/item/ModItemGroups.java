@@ -3,6 +3,7 @@ package net.tenu.journey.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -13,15 +14,9 @@ import net.tenu.journey.block.ModBlocks;
 public class ModItemGroups {
     public static final ItemGroup JOURNEY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Journey.MOD_ID, "journey_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
+            FabricItemGroup.builder().icon(() -> new ItemStack(Items.IRON_INGOT))
                     .displayName(Text.translatable("itemgroup.journey.journey_items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.RAW_PINK_GARNET);
-                        entries.add(ModItems.PINK_GARNET);
-                        entries.add(ModItems.FOUR_LEAF_CLOVER);
-                        entries.add(ModItems.CHISEL);
-                        entries.add(ModItems.CAULIFLOWER);
-                        entries.add(ModItems.STARLIGHT_ASHES);
                         entries.add(ModItems.SPLENDID_ROBE_CHESTPLATE);
                         entries.add(ModItems.CITY_DEFENDER_HELMET);
                         entries.add(ModItems.CITY_DEFENDER_CHESTPLATE);

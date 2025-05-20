@@ -8,15 +8,15 @@ public class ModPotions {
     public static void registerModPotions() {
         Journey.LOGGER.info("Registering mod potions for " + Journey.MOD_ID);
 
-        FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
-            builder.registerPotionRecipe(
-                    // Input potion
-                    Potions.AWKWARD,
-                    // Ingredient
-                    ModItems.FOUR_LEAF_CLOVER,
-                    // Output potion
-                    Potions.LUCK
-            );
-        });
+//        FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+//            builder.registerPotionRecipe(
+//                    // Input potion
+//                    Potions.AWKWARD,
+//                    // Ingredient
+//                    ModItems.FOUR_LEAF_CLOVER,
+//                    // Output potion
+//                    Potions.LUCK
+//            );
+//        });
     }
 }
