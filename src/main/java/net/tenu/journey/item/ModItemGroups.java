@@ -21,6 +21,9 @@ public class ModItemGroups {
                         entries.add(ModItems.CITY_DEFENDER_HELMET);
                         entries.add(ModItems.CITY_DEFENDER_CHESTPLATE);
                         entries.add(ModItems.CITY_DEFENDER_LEGGINGS);
+                        entries.add(ModItems.TRIALS_REWARD_HELMET);
+                        entries.add(ModItems.TRIALS_REWARD_CHESTPLATE);
+                        entries.add(ModItems.TRIALS_REWARD_LEGGINGS);
                     }).build());
 
     public static final ItemGroup JOURNEY_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

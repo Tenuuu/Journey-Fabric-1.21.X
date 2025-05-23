@@ -21,6 +21,13 @@ public class ModItems {
     public static final Item CITY_DEFENDER_LEGGINGS = registerItem("city_defender_leggings",
             new BaseArmorItem(ArmorMaterials.IRON, ArmorItem.Type.LEGGINGS, new Item.Settings(), "city_defender"));
 
+    public static final Item TRIALS_REWARD_HELMET = registerItem("trials_reward_helmet",
+            new BaseArmorItem(ArmorMaterials.IRON, ArmorItem.Type.HELMET, new Item.Settings(), "trials_reward"));
+    public static final Item TRIALS_REWARD_CHESTPLATE = registerItem("trials_reward_chestplate",
+            new BaseArmorItem(ArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE, new Item.Settings(), "trials_reward"));
+    public static final Item TRIALS_REWARD_LEGGINGS = registerItem("trials_reward_leggings",
+            new BaseArmorItem(ArmorMaterials.IRON, ArmorItem.Type.LEGGINGS, new Item.Settings(), "trials_reward"));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Journey.MOD_ID, name), item);
     }
